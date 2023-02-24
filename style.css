@@ -13,6 +13,7 @@ body {
 nav > ul {
   margin: 0px;
   padding: 0px;
+  margin-left: 25%;
 }
 nav li {
   list-style-type: none;
@@ -75,18 +76,6 @@ nav li:hover .submenu {
 
 
 
-.menu-html:hover {
-  border-top: 5px solid #ff653e;
-  background-color: rgba(228, 77, 38, 0.15);
-}
-.menu-css:hover {
-  border-top: 5px solid #0070bb;
-  background-color: rgba(000, 112, 192, 0.15);
-}
-.menu-js:hover {
-  border-top: 5px solid #f1dc4f;
-  background-color: rgba(241, 211, 79, 0.15);
-}
 .menu-contact:hover {
   border-top: 5px solid #bbb;
   background-color: rgba(5, 167, 78, 0.15);
@@ -101,7 +90,7 @@ nav li:hover .submenu {
 }
 .menu-php:hover {
   border-top: 5px solid #5c18da;
-  background-color: #5c18da;
+  background-color: #4a2d80;
 }
 .menu-concept:hover {
   border-top: 5px solid rgb(21, 176, 151);
@@ -112,15 +101,6 @@ nav > ul > li:hover a {
 }
 
 
-.menu-html .submenu {
-  background-color: rgb(230, 100, 40);
-}
-.menu-css .submenu {
-  background-color: rgb(000, 160, 240);
-}
-.menu-js .submenu {
-  background-color: rgb(251, 216, 99);
-}
 .menu-mission .submenu {
   background-color: rgb(24, 247, 124);
 }
@@ -141,15 +121,7 @@ nav > ul > li:hover a {
 }
 
 
-.menu-html .submenu li:hover {
-  background-color: rgb(210, 77, 60);
-}
-.menu-css .submenu li:hover {
-  background-color: rgb(60, 138, 210);;
-}
-.menu-js .submenu li:hover {
-  background-color: rgb(200, 165, 75);
-}
+
 .menu-sql .submenu li:hover {
   background-color: #0e82a3;
 }
