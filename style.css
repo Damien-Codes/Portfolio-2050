@@ -110,14 +110,13 @@ nav > ul > li:hover a {
 .menu-concept .submenu {
   background-color: #15b097;
 }
-.menu-php.submenu {
-  background-color: #5c18da;
+.menu-php .submenu {
+  background-color: #854fea;
 }
 
 
 .submenu li:hover a {
   color: #eee;
-  font-weight: bold;
 }
 
 
@@ -137,16 +136,6 @@ nav > ul > li:hover a {
 
 /* -----------  ----------- */
 
-.menu-mobile {
-  display: none;
-}
-nav input[type="checkbox"] {
-  display: none;
-}
-nav input[type="checkbox"]:checked ~ ul {
-  display: block;
-}
-
 main {
   display: flex;
   justify-content: center;
@@ -163,7 +152,7 @@ main > div {
   justify-self: center;
   align-items: center;
   background-color: #222538;
-  opacity: 0.8;
+  opacity: 0.5;
   width: 50%;
   height: 40%;
   border: solid 3px white;
@@ -176,30 +165,4 @@ main div h1 {
   color: purple;
   opacity: 100;
   color: #fff;
-}
-
-@media screen and (max-width: 680px) {
-  .menu-mobile {
-    display: block;
-    color: #fff;
-    background-color: rgba(29, 197, 151, 0.97);
-    text-align: center;
-    padding: 12px 0;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul li,
-  nav ul li a {
-    width: 100%;
-    text-align: center;
-  }
-  nav ul li a,
-  nav ul li:hover a {
-    padding: 10px 0px 10px 0px;
-  }
-  nav li:hover .submenu {
-    display: block;
-    position: static;
-  }
 }
