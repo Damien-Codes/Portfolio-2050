@@ -27,6 +27,9 @@ nav > ul > li {
   display: none;
 }
 
+.subsubmenu {
+  display: none;
+}
 nav input[type="checkbox"] {
   display: none;
 }
@@ -96,6 +99,10 @@ nav li:hover .submenu {
   border-top: 5px solid rgb(21, 176, 151);
   background-color: rgba(21, 176, 150, 0.15);
 }
+.menu-certifications:hover {
+  border-top: 5px solid rgb(188, 227, 72);
+  background-color: rgba(127, 137, 94, 0.15);
+}
 nav > ul > li:hover a {
   padding: 15px 30px 20px 30px;
 }
@@ -113,7 +120,9 @@ nav > ul > li:hover a {
 .menu-php .submenu {
   background-color: #854fea;
 }
-
+.menu-certifications .submenu {
+  background-color: #71af0d;
+}
 
 .submenu li:hover a {
   color: #eee;
