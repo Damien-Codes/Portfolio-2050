@@ -77,8 +77,6 @@ nav li:hover .submenu {
   width: 270px;
 }
 
-
-
 .menu-contact:hover {
   border-top: 5px solid #bbb;
   background-color: rgba(5, 167, 78, 0.15);
@@ -100,8 +98,8 @@ nav li:hover .submenu {
   background-color: rgba(21, 176, 150, 0.15);
 }
 .menu-certifications:hover {
-  border-top: 5px solid rgb(188, 227, 72);
-  background-color: rgba(127, 137, 94, 0.15);
+  border-top: 5px solid rgba(222, 48, 48, 0.89);
+  background-color: rgba(161, 71, 64, 0.468);
 }
 nav > ul > li:hover a {
   padding: 15px 30px 20px 30px;
@@ -121,7 +119,7 @@ nav > ul > li:hover a {
   background-color: #854fea;
 }
 .menu-certifications .submenu {
-  background-color: #71af0d;
+  background-color: #d75749;
 }
 
 .submenu li:hover a {
